@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evaluacion Modulo 2</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <form action="" class="form">
+      <h1 class="title">Adivina el número</h1>
+      <p class="title-text">
+        Intenta adivinar el número que se encuentra en un rango del 1 al 100.
+        Sólo tienes 10 oportunidades. Suerte!
+      </p>
+      <div>
+        <label for="input__number"></label>
+        <input
+          type="text"
+          class="input__number js-inputNumber"
+          id="input__number "
+          placeholder="Introduce tu número"
+        />
+        <button class="button js-button">Prueba</button>
+      </div>
+
+      <div class="resultParagraphs">
+        <p class="guesses"></p>
+        <p class="lastResults js-congratulationsResult"></p>
+        <p class="lowOrHigh"></p>
+      </div>
+    </form>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

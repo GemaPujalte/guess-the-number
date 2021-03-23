@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(to bottom, rgb(27, 27, 41), white);
+  overflow: hidden;
+  height: 100vh;
+}
+.title {
+  text-align: center;
+  font-size: 70px;
+  background: linear-gradient(purple, white);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.title-text {
+  text-align: center;
+  color: white;
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input__number {
+  width: 200px;
+  height: 20px;
+  background-color: rgb(221, 215, 215);
+  border: none;
+  border-radius: 2px;
+  margin: 10px 0 10px 0;
+}
+
+.button {
+  width: 60px;
+  height: 30px;
+  background-color: #a374a9;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.js-resetButton {
+}
+
+/* .js-congratulationsResult {
+  transform: translate(0, 101vh);
+} */
